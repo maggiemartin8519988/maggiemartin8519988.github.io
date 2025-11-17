@@ -31,11 +31,11 @@ $(function () {
 
 
     // TODO 2 - Create Platforms
-    createPlatform(400,600,200,10)
-    createPlatform(200,500,200,10)
-    createPlatform(400,400,200,10)
-    createPlatform(600,300,200,10)
-    createPlatform(350,200,200,10)
+    createPlatform(400,600,200,8)
+    createPlatform(200,500,200,8)
+    createPlatform(400,400,200,8)
+    createPlatform(600,300,200,8)
+    createPlatform(350,200,200,8)
 
 
 
@@ -53,6 +53,12 @@ $(function () {
 
     
     // TODO 4 - Create Cannons
+   createCannon('left',300,1500);
+   createCannon('top',800,1500);           
+   createCannon('right',500, 1500); 
+
+    
+
 
 
     
